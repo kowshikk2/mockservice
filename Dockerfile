@@ -30,6 +30,6 @@ ENV VEHICLEDATABROKER_DAPR_APP_ID=vehicledatabroker
 
 ENV PYTHONUNBUFFERED=yes
 
-LABEL org.opencontainers.image.source="https://github.com/PratikGaner/services2/tree/main/mock_service"
+LABEL org.opencontainers.image.source="https://github.com/kowshikk2/mockservice"
 
 CMD ["python3", "/mock/mockservice.py"]

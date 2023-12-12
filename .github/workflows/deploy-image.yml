@@ -74,8 +74,8 @@ jobs:
           platforms: |
             linux/amd64
             linux/arm64
-          file: ./mock_service/Dockerfile
-          context: ./mock_service
+          file: ./Dockerfile
+          context: .
           push: true
           tags: |
             ${{ steps.meta.outputs.tags }}

@@ -148,13 +148,13 @@ jobs:
 
       - name: Install dependencies
         shell: bash
-        working-directory: mock_service
+        working-directory: .
         run: |
           python3 -m pip install --pre -r ./requirements.txt
           python3 -m pip install -r ./requirements-dev.txt
 
       - name: Run tests
         shell: bash
-        working-directory: mock_service
+        working-directory: .
         run: |
           python3 -m pytest

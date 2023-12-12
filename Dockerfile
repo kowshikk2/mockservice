@@ -12,7 +12,7 @@
 # ********************************************************************************/
 
 # Build stage, to create a Virtual Environent
-FROM arm32v7/python:3.11-slim-bullseye 
+FROM python:3.11-slim-bullseye 
 
 COPY . /
 
